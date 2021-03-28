@@ -9,16 +9,18 @@ import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
 import ScrollToTop from "./helpers/ScrollToTop";
 
+
 const App = () => {
     return (
         <Router>
-            <ScrollToTop>
+            
+            {/* <ScrollToTop> */}
                 <Switch>
                     <Route exact path="/"  component={HomeOne}/>
                     <Route exact path={"/register"} component={Contact}/>
                     <Route exact component={Error404}/>
                 </Switch>
-            </ScrollToTop>
+            {/* </ScrollToTop> */}
         </Router>
     );
 };

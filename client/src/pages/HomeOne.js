@@ -12,7 +12,7 @@ import Teaser from '../components/Teaser';
 import Video from '../components/Video';
 import '../assets/css/video.css'
 import Apropos from '../components/Apropos';
-import Programme from '../components/Programme';
+import NewProgramme from '../components/Programme/NewProgramme';
 import NavBar from '../components/NavBar';
 import Plateforme from '../components/Plateforme';
 
@@ -92,7 +92,7 @@ const HomeOne = () => {
                 <Plateforme/>
             </div>
             <Funfact/>
-            <Programme />
+            <NewProgramme />
             <Team/>
             <div id ="sponsors">
                 <Testimonials/>
